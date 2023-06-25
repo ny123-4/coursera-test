@@ -1,0 +1,90 @@
+h1 {
+	color: darkred;
+	font-size: 60px;
+	text-align: center;
+}
+
+ 
+.row{
+	width: 100%;
+}
+.thirds{
+	width: 33.33%;
+	float: left;
+	padding: 5px;
+}
+
+
+.textcontain{
+	position: relative;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background: lightgrey;
+	border: 3px solid black;
+}
+
+.title{
+	position: absolute;
+	width: 100px;
+	top: -23px;
+	right: -3px;
+	border: 3px solid black;
+	text-align: center;
+	padding: 5px;
+	font-weight: bold ;
+	font-size: 1.25em;
+}
+
+.txt{
+	margin-top: 30px;
+	padding: 15px;
+
+}
+
+#p1{
+	background: lightcoral;
+
+}
+
+#p2{
+	background: lightskyblue;
+}
+
+#p3{
+	background: purple;
+	color: whitesmoke;
+}
+
+
+*{
+	box-sizing: border-box; 
+}
+
+/* Desktop */
+
+
+
+/* Tablet */
+@media(min-width: 768px) and (max-width: 991px){
+	.halves{
+	width: 50%;
+	float: left;
+	}
+	.pizzasingles{
+		margin-top: 5px;
+		width: 100%;
+
+	}
+}
+
+/* Mobile */
+@media(max-width: 767px){
+	.singles{
+	margin-top: 5px;
+	width: 100%;
+	float: left;
+	}
+}
+
+
